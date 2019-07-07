@@ -1,6 +1,7 @@
-# \<firefly-security\>
+#<firefly-security\>
 
-description goes here
+This mixin makes it possible to get the custom claims for the user. 
+This mixin must be used on a page that has a 'firebase-auth' element.
 
 ## Install the Polymer-CLI
 
