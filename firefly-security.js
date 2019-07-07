@@ -4,7 +4,7 @@
  * @polymerMixin
  * @mixinFunction
  */
-const AspFireSecurityMixin = (superclass) => class extends superclass {
+const FireflySecurityMixin = (superclass) => class extends superclass {
 
     static get properties(){
         return {
