@@ -4,7 +4,7 @@
  * @polymerMixin
  * @mixinFunction
  */
-const FireflySecurityMixin = (superclass) => class extends superclass {
+export const FireflySecurityMixin = (superclass) => class extends superclass {
 
     static get properties(){
         return {
