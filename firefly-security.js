@@ -36,7 +36,10 @@ export const FireflySecurityMixin = (superclass) => class extends superclass {
         if(user){
             user.getIdTokenResult(true)
             .then((tokens) => {
-                this.set('claims', tokens.claims);
+                var tempClaim = tokens.claims
+                tempClaim.isCurator = true
+                this.set('claims', tempClaim);
+                console.log(this.claims)
             });
   }
 
